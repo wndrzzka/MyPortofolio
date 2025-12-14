@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WannnV - Bot Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <button class="theme-toggle" id="themeBtn" onclick="toggleTheme()">
+            <i class="fas fa-sun" id="themeIcon"></i>
+        </button>
+
+        <header class="profile-header">
+            <img src="https://files.catbox.moe/tev56q.jpg" alt="WannnV" class="profile-pic">
+            <h1>WannnV</h1>
+            <span class="badge-role">⚡ Telegram Bot Developer</span>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <i class="fab fa-telegram"></i>
+                <h3>Creator</h3>
+                <span>Userbot & Store Bot</span>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-shopping-cart"></i>
+                <h3>Seller</h3>
+                <span>Telegram Account</span>
+            </div>
+        </div>
+
+        <h2 class="section-title">Who Am I?</h2>
+        <p class="bio-text">
+            Halo, saya WannnV. Pengembang bot Telegram yang fokus pada otomatisasi dan MONETISASI. Saya menyediakan tools bot berkualitas dan akun Telegram untuk kebutuhan digital Anda. Dengan kemampuan prompt AI, Saya dapat memaksimalkan project :v
+        </p>
+
+        <h2 class="section-title">Store Menu</h2>
+        <div class="store-grid">
+            <div class="store-item"><i class="fas fa-check-circle"></i> Jasa Pembuatan Bot Telegram</div>
+            <div class="store-item"><i class="fas fa-check-circle"></i> Userbot Sebar</div>
+            <div class="store-item"><i class="fas fa-check-circle"></i> Akun Telegram ID</div>
+            <div class="store-item"><i class="fas fa-check-circle"></i> Vps Indonesia</div>
+        </div>
+
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-list">
+            
+            <a href="https://t.me/JasebXBot" target="_blank" class="project-card">
+                <div class="project-info">
+                    <h3><i class="fas fa-robot"></i> JasebXBot (Userbot)</h3>
+                    <p>UserBot Broadcast otomatis, Untuk mempermudah promosi anda.</p>
+                </div>
+                <i class="fas fa-arrow-right arrow-icon"></i>
+            </a>
+
+            <a href="https://api.wannnv.web.id" target="_blank" class="project-card">
+                <div class="project-info">
+                    <h3><i class="fas fa-server"></i> Rest Api</h3>
+                    <p>Rest api downloader & AI Integration Service.</p>
+                </div>
+                <i class="fas fa-arrow-right arrow-icon"></i>
+            </a>
+
+        </div>
+
+        <div class="tech-stack">
+            <div class="tech-item"><i class="fab fa-python"></i> Python</div>
+            <div class="tech-item"><i class="fas fa-code"></i> Pyrogram</div>
+            <div class="tech-item"><i class="fas fa-terminal"></i> Bash</div>
+            <div class="tech-item"><i class="fab fa-linux"></i> Linux</div>
+            <div class="tech-item"><i class="fas fa-database"></i> MongoDB</div>
+            <div class="tech-item"><i class="fab fa-github"></i> Git</div>
+        </div>
+
+        <div class="footer">
+            <div class="social-links">
+                <a href="https://t.me/WannnKW"><i class="fab fa-telegram"></i></a>
+                <a href="https://github.com/wndrzzka"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/_wndrzzka"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p style="margin-top:10px; font-size: 0.8rem; color: var(--text-sec);">&copy; 2025 WannnV Projects</p>
+        </div>
+
+    </div>
+
+    <script>
+        const themeBtn = document.getElementById('themeBtn');
+        const themeIcon = document.getElementById('themeIcon');
+        const body = document.body;
+
+        function toggleTheme() {
+            body.classList.toggle('light-mode');
+            
+            if (body.classList.contains('light-mode')) {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            } else {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            }
+        }
+    </script>
+
+</body>
+  </html>
