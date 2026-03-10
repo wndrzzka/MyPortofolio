@@ -25,16 +25,14 @@ Saya adalah seorang **Telegram Bot Developer** yang berfokus pada solusi otomati
 Cukup clone repositori ini dan jalankan file index di browser Anda:
 ```bash
 git clone [https://github.com/wndrzzka/myportofolio.git](https://github.com/wndrzzka/myportofolio.git)
-cd myportofolio
+cd myportofolio```
 # Buka index.html di browser favorit Anda
 
 🤝 Kontak & Layanan
 Jika Anda tertarik dengan Jasa Pembuatan Bot Telegram atau proyek kolaborasi lainnya, silakan hubungi melalui:
 
 Telegram: @WannnKW
-
 Instagram: @_wndrzzka
-
 GitHub: wndrzzka
 
 © 2025 WannnV Projects. Crafted for performance and automation.
