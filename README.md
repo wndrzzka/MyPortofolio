@@ -23,9 +23,9 @@ Saya adalah seorang **Telegram Bot Developer** yang berfokus pada solusi otomati
 
 ## 🚀 Instalasi
 Cukup clone repositori ini dan jalankan file index di browser Anda:
-```bash
+<code>bash
 git clone [https://github.com/wndrzzka/myportofolio.git](https://github.com/wndrzzka/myportofolio.git)
-cd myportofolio```
+cd myportofolio</code>
 # Buka index.html di browser favorit Anda
 
 🤝 Kontak & Layanan
