@@ -18,13 +18,15 @@ Selamat datang di repositori resmi **WannnV**. Website ini adalah landing page p
 Saya adalah seorang **Telegram Bot Developer** yang berfokus pada solusi otomatisasi dan monetisasi digital. Selain mengembangkan bot berkualitas, saya juga menyediakan jasa penyediaan akun Telegram, layanan VPS, serta integrasi Rest API & AI.
 
 ## 📂 Struktur File
-* `index.html`: Berisi struktur utama, profil, store menu, dan daftar proyek aktif.
-* `style.css`: Berisi seluruh konfigurasi visual, sistem grid, animasi, dan variabel warna.
+* `index.html`: Berisi struktur utama web, profil, store menu, dan daftar proyek aktif.
+* `style.css`: Berisi seluruh konfigurasi visual custom, animasi tambahan, dan efek kaca (glassmorphism).
+* `tailwind.config.js`: Berisi konfigurasi kustom untuk framework Tailwind CSS, termasuk animasi dan warna kustom.
+* `script.js`: Berisi logika JavaScript untuk interaksi UI seperti theme switcher, efek kursor, dan scroll to top.
 
 ## 🚀 Instalasi
 Cukup clone repositori ini dan jalankan file index di browser Anda:
 ```
-git clone [https://github.com/wndrzzka/myportofolio.git](https://github.com/wndrzzka/myportofolio.git)
+git clone https://github.com/wndrzzka/myportofolio.git
 ```
 ```
 cd myportofolio
@@ -38,4 +40,4 @@ Jika Anda tertarik dengan **Jasa Pembuatan Bot Telegram** atau proyek kolaborasi
 * **GitHub**: [wndrzzka](https://github.com/wndrzzka)
 
 ---
-*© 2025 WannnV Projects. Crafted for performance and automation.*
+*© 2026 WannnV Projects. Crafted for performance and automation.*
