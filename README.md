@@ -34,7 +34,6 @@ cd myportofolio
 Jika Anda tertarik dengan **Jasa Pembuatan Bot Telegram** atau proyek kolaborasi lainnya, silakan hubungi melalui:
 
 * **Telegram**: [@WannnKW](https://t.me/WannnKW)
-* **Instagram**: [@_wndrzzka](https://instagram.com/_wndrzzka)
 * **GitHub**: [wndrzzka](https://github.com/wndrzzka)
 
 ---
